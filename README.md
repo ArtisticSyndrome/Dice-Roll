@@ -5,29 +5,16 @@
 <h1 align="center">Courses App</h1>
 <p align="center">A cross-platform mobile application built with Flutter for browsing and managing a catalog of courses. Features full user authentication and persistent login state. 📚✨</p>
 
-✨ Features
+## ✨ Features
 
-Authentication Flow: Complete user sign-up (/register) and sign-in (/login) pages.
+- **Splash Screen** 🚀 – a clean animated intro  
+- **Login / Register screens** 🔐 – with Shared Preferences storage  
+- **Home Screen (Courses)** 📚 – browsable course list with images  
+- **About Us screen** ℹ️ – app info section  
+- **Custom App Icon** 🎨 using flutter_launcher_icons  
+- **Simple, easy-to-read UI with responsive layout** 📐  
 
-Persistent Session: Uses local storage (shared_preferences) to maintain user login state across app restarts.
-
-Course Catalog: Home screen (/home) displaying a rich list of available courses with ratings and pricing.
-
-Navigation Drawer: Convenient access to Profile, My Courses, About Us, and Logout options.
-
-Responsive UI: Built with Flutter's Material Design to ensure a clean, modern, and adaptive experience on all devices.
-
-About Page: Dedicated information screen (as seen in ss/About Us.jpg).
-
-🛠 Tech Stack & Packages
-
-The application is built using the Flutter framework and Dart language.
-
-Flutter: 3.38.3 (Stable)
-
-Dart SDK: 3.10.2 (Stable)
-
-Key Dependencies
+## 🛠 Tech Stack & Packages
 
 | Tech / Package | Version | Purpose |
 |----------------|---------|---------|
@@ -39,15 +26,74 @@ Key Dependencies
 
 ---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Follow these steps to set up and run the project locally.
+### Follow these steps to set up and run the project locally.
 
-Prerequisites
+### - Prerequisites
 
-You must have the Flutter SDK installed on your machine.
-
-Check Flutter Installation:
+### 1. You must have the Flutter SDK installed on your machine. Check Flutter Installation:
 ```bash 
 flutter doctor
 ```
+
+### Installation
+
+### 1. Clone the repository:
+```bash
+git clone <https://github.com/ArtisticSyndrome/Courses-App.git>
+```
+
+### 2. Navigate to the project directory:
+```bash
+cd Courses_App
+```
+
+### 3. Install all dependencies defined in pubspec.yaml:
+```bash
+flutter pub get
+```
+
+### 4. Run the app on a connected device or simulator:
+```bash
+flutter run
+```
+
+## 📱 Screenshots
+
+- The app features a clear, deep purple-themed interface for a modern look.
+
+<p align="center"> <img src="ss/splash.jpg" width="200" alt="Splash Screen"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="ss/login.jpg" width="200" alt="Login Screen"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="ss/register.jpg" width="200" alt="Register Screen"> </p> <p align="center"> <img src="ss/home.jpg" width="200" alt="Home Screen"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="ss/drawer.jpg" width="200" alt="Drawer"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="ss/About Us.jpg" width="200" alt="About Us Screen"> </p>
+
+## 🎨 Custom App Icon
+### 1. Icon used:
+```bash
+assets/appicon.png
+```
+### 2. Regenerate icons after any changes:
+```bash
+flutter pub run flutter_launcher_icons
+```
+
+## ⚙️ Environment Setup
+1. Flutter SDK (Latest Stable)
+2. Dart SDK (Latest Stable)
+3. Android Studio or VS Code
+4. Device/emulator with SDK 21+
+
+## 🤝 Contributing
+
+1. Fork the repository.
+2. Create your feature branch:
+```bash
+git checkout -b feature/AmazingFeature
+```
+3. Commit your changes:
+```bash
+git commit -m "Add AmazingFeature"
+```
+4. Push to the branch:
+```bash
+git push origin feature/AmazingFeature
+```
+5. Open a Pull Request!
