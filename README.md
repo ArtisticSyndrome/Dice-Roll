@@ -48,4 +48,6 @@ Prerequisites
 You must have the Flutter SDK installed on your machine.
 
 Check Flutter Installation:
-```bash flutter doctor ```
+```bash 
+flutter doctor
+```
